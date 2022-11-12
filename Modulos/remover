@@ -1,4 +1,4 @@
-#!/bin/bash
+⚡️⚡️#!/bin/bash
 remove_ovp () {
 if [[ -e /etc/debian_version ]]; then
 	GROUPNAME=nogroup
@@ -95,7 +95,7 @@ else
 fi
 elif [[ "$resp" = "2" ]]; then
 	clear
-	tput setaf 7 ; tput setab 4 ; tput bold ; printf '%32s%s%-13s\n' "ㅤ🐉ㅤ🚮ㅤRemove SSH Userㅤ🚮ㅤ🐉ㅤ" ; tput sgr0
+	tput setaf 7 ; tput setab 4 ; tput bold ; printf '%32s%s%-13s\n' "ㅤ⚡️ㅤ🚮ㅤRemove SSH Userㅤ🚮ㅤ⚡️ㅤ" ; tput sgr0
 	echo ""
 	echo -ne "\033[1;33m◇ YOU REALLY WANT TO REMOVE ALL USERS \033[1;37m[s/n]: "; read opc	
 	if [[ "$opc" = "s" ]]; then
